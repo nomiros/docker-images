@@ -1,11 +1,10 @@
 
 
 
-docker run <container-id>
-docker ps
 docker images
-docker build    / to run where Dockerfile located
-docker run <container-id>
-docker run -ti <container-id>  /  attach shell to running image
-docker inspect <container-id>
-docker run -p 8000:8000 -t <container-id>   / expose container port 8000 and map it to external port 8000
+docker build                                  / to run where Dockerfile located
+docker run <image-id>
+docker run -ti <image-id>                     / attach shell to running image
+docker run -p 8000:8000 -t <image-id>         / expose container port 8000 and map it to external port 8000
+docker ps                                     / show running containers
+docker inspect <container-id>   
