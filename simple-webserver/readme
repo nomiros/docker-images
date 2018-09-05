@@ -1,0 +1,3 @@
+Even though you EXPOSE port 8000 in your Dockerfile, you still need to map it to an external port at runtime with a command like docker run -p 8000:8000 -t tmp.
+
+The EXPOSE in the Dockerfile only enables you to use the shorthand docker run -t -P tmp where the capital P tells docker to automatically map all exposed ports to external ports.
