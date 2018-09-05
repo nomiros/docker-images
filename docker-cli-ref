@@ -8,3 +8,4 @@ docker build    / to run where Dockerfile located
 docker run <container-id>
 docker run -ti <container-id>  /  attach shell to running image
 docker inspect <container-id>
+docker run -p 8000:8000 -t <container-id>   / expose container port 8000 and map it to external port 8000
