@@ -1,0 +1,10 @@
+
+
+
+docker run <container-id>
+docker ps
+docker images
+docker build    / to run where Dockerfile located
+docker run <container-id>
+docker run -ti <container-id>  /  attach shell to running image
+docker inspect <container-id>
